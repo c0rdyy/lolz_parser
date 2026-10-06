@@ -1,0 +1,6 @@
+aiogram==3.20.0
+python-dotenv==1.1.0
+lolzteam==2.0.13
+aiohttp==3.11.18
+pydantic==2.11.5
+sudo apt install python3 python3-pip python3-venv git -y

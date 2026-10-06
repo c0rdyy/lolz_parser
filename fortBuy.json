@@ -1,0 +1,294 @@
+{
+    "status": "ok",
+    "item": {
+        "item_id": 193708241,
+        "item_state": "paid",
+        "category_id": 9,
+        "published_date": 1761143958,
+        "title": "1 Skins no",
+        "description": "",
+        "price": 1,
+        "update_stat_date": 0,
+        "refreshed_date": 1761143958,
+        "edit_date": 1761156835,
+        "pending_deletion_date": 0,
+        "login": "yqcjaoduqh@rambler.ru",
+        "temp_email": "",
+        "view_count": 3,
+        "is_sticky": 0,
+        "information": "",
+        "item_origin": "phishing",
+        "extended_guarantee": 0,
+        "nsb": 1,
+        "allow_ask_discount": 0,
+        "title_en": "1 Skins no",
+        "description_en": "",
+        "information_en": "",
+        "email_type": "autoreg",
+        "email_provider": "rambler",
+        "item_domain": "rambler.ru",
+        "resale_item_origin": "",
+        "auto_bump_period": 0,
+        "user_allow_ask_discount": 1,
+        "max_discount_percent": 30,
+        "market_custom_title": "Fortnite Accounts",
+        "feedback_data": "{\"9\":{\"positive\":5031,\"negative\":166},\"1\":{\"positive\":1,\"negative\":0},\"5\":{\"positive\":2,\"negative\":0},\"13\":{\"positive\":18,\"negative\":0},\"17\":{\"positive\":1,\"negative\":0},\"15\":{\"positive\":1,\"negative\":0}}",
+        "buyer_display_icon_group_id": 0,
+        "buyer_uniq_banner": "",
+        "buyer_avatar_date": 1667922892,
+        "buyer_user_group_id": 2,
+        "fortnite_item_id": 193708241,
+        "fortnite_id": "1020b528edf9456d94c0432933dd8ca1",
+        "fortnite_platform": "EpicAndroid",
+        "fortnite_register_date": 1728860102,
+        "fortnite_last_activity": 1728860102,
+        "fortnite_book_level": 1,
+        "fortnite_lifetime_wins": 0,
+        "fortnite_level": 3,
+        "fortnite_season_num": 37,
+        "fortnite_books_purchased": 0,
+        "fortnite_balance": 0,
+        "fortnite_skin_count": 0,
+        "fortnite_pickaxe_count": 1,
+        "fortnite_dance_count": 2,
+        "fortnite_change_email": 0,
+        "fortnite_rl_purchases": 0,
+        "fortnite_next_change_email_date": 1768919951,
+        "fortnite_glider_count": 1,
+        "fortnite_last_trans_date": 0,
+        "fortnite_xbox_linkable": 1,
+        "fortnite_psn_linkable": 1,
+        "fortnite_username": "tefojk77",
+        "fortnite_shop_skins_count": 0,
+        "fortnite_shop_pickaxes_count": 0,
+        "fortnite_shop_dances_count": 0,
+        "fortnite_shop_gliders_count": 0,
+        "fortnite_shop_skins_cost": 0,
+        "fortnite_shop_pickaxes_cost": 0,
+        "fortnite_shop_dances_cost": 0,
+        "fortnite_shop_gliders_cost": 0,
+        "fortnite_refund_credits": 0,
+        "fortnite_country": "DE",
+        "priceWithSellerFee": 0.9,
+        "category": {
+            "category_id": 9,
+            "category_title": "Fortnite",
+            "category_name": "fortnite",
+            "category_url": "fortnite"
+        },
+        "guarantee": null,
+        "canViewLoginData": true,
+        "canViewTempEmail": true,
+        "canUpdateItemStats": false,
+        "canReportItem": false,
+        "canViewItemViews": false,
+        "loginData": {
+            "raw": "yqcjaoduqh@rambler.ru:tefik8988",
+            "encodedRaw": "yqcjaoduqh%40rambler.ru%3Atefik8988",
+            "login": "yqcjaoduqh@rambler.ru",
+            "password": "tefik8988",
+            "encodedPassword": "tefik8988",
+            "oldPassword": "",
+            "encodedOldPassword": null,
+            "extraPasswords": ""
+        },
+        "canViewEmailLoginData": true,
+        "emailLoginData": {
+            "raw": "yqcjaoduqh@rambler.ru:6441552sXNUQW",
+            "encodedRaw": "yqcjaoduqh%40rambler.ru%3A6441552sXNUQW",
+            "login": "yqcjaoduqh@rambler.ru",
+            "password": "6441552sXNUQW",
+            "encodedPassword": "6441552sXNUQW",
+            "oldPassword": "",
+            "encodedOldPassword": null,
+            "newSecretAnswer": "",
+            "extraPasswords": "",
+            "extraInfo": ""
+        },
+        "copyFormatData": {
+            "title_link": "https://lzt.market/193708241/ - 1 Skins no",
+            "login_data": "yqcjaoduqh@rambler.ru:tefik8988:yqcjaoduqh@rambler.ru:6441552sXNUQW",
+            "full": "https://lzt.market/193708241/ - 1 Skins no - yqcjaoduqh@rambler.ru:tefik8988:yqcjaoduqh@rambler.ru:6441552sXNUQW"
+        },
+        "showGetEmailCodeButton": true,
+        "getEmailCodeDisplayLogin": "yqcjaoduqh@rambler.ru",
+        "buyer": {
+            "user_id": 3908738,
+            "operation_date": 1761161710,
+            "visitorIsBuyer": true,
+            "username": "cordyy",
+            "is_banned": 0,
+            "display_style_group_id": 65,
+            "display_icon_group_id": 0,
+            "uniq_username_css": "",
+            "uniq_banner": "",
+            "user_group_id": 2
+        },
+        "isPersonalAccount": false,
+        "sold_items_category_count": 36511,
+        "restore_items_category_count": 710,
+        "rub_price": 1,
+        "price_currency": "rub",
+        "priceWithSellerFeeLabel": "0,9 ₽",
+        "canValidateAccount": false,
+        "canResellItem": true,
+        "fortniteSkins": [],
+        "fortnitePickaxe": [
+            {
+                "id": "defaultpickaxe",
+                "title": "Default Pickaxe",
+                "rarity": "common",
+                "type": "pickaxe",
+                "from_shop": 0,
+                "shop_price": 0
+            }
+        ],
+        "fortniteDance": [
+            {
+                "id": "eid_boogiedown",
+                "title": "Boogie Down",
+                "rarity": "epic",
+                "type": "emote",
+                "from_shop": 0,
+                "shop_price": 0
+            },
+            {
+                "id": "eid_dancemoves",
+                "title": "Dance Moves",
+                "rarity": "common",
+                "type": "emote",
+                "from_shop": 0,
+                "shop_price": 0
+            }
+        ],
+        "fortniteGliders": [
+            {
+                "id": "defaultglider",
+                "title": "Glider",
+                "rarity": "common",
+                "type": "glider",
+                "from_shop": 0,
+                "shop_price": 0
+            }
+        ],
+        "fortnitePastSeasons": [
+            {
+                "seasonLevel": 1,
+                "bookLevel": 1,
+                "seasonNumber": 36
+            },
+            {
+                "seasonLevel": 1,
+                "bookLevel": 1,
+                "seasonNumber": 33
+            }
+        ],
+        "isSmallExf": false,
+        "account_last_activity": 1728860102,
+        "fortniteTransactions": [],
+        "domain": "rambler.ru",
+        "shopCounts": {
+            "shopSkinsCount": 0,
+            "shopSkinsTotalCost": 0,
+            "shopPickaxesCount": 0,
+            "shopPickaxesTotalCost": 0,
+            "shopDancesCount": 0,
+            "shopDancesTotalCost": 0,
+            "shopGlidersCount": 0,
+            "shopGlidersTotalCost": 0
+        },
+        "canViewAccountLink": true,
+        "accountLinks": [
+            {
+                "link": "https://fortnitetracker.com/profile/search?q=1020b528edf9456d94c0432933dd8ca1",
+                "text": "https://fortnitetracker.com/profile/search?q=1020b528edf9456d94c0432933dd8ca1",
+                "iconClass": "fortnite"
+            }
+        ],
+        "accountLink": "https://fortnitetracker.com/profile/search?q=1020b528edf9456d94c0432933dd8ca1",
+        "imagePreviewLinks": {
+            "download": {
+                "pickaxes": "https://prod-api.lzt.market/193708241/image?type=pickaxes",
+                "dances": "https://prod-api.lzt.market/193708241/image?type=dances",
+                "gliders": "https://prod-api.lzt.market/193708241/image?type=gliders"
+            },
+            "direct": {
+                "pickaxes": "https://prod-api.lzt.market/193708241/image/show?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzUxMiJ9.eyJzdWIiOjE5MzcwODI0MSwiaXNzIjoibHp0IiwiZXhwIjoxNzYxMzUwMzk5LCJpYXQiOjE3NjEwOTEyMDAsImp0aSI6IjE5MzcwODI0MTpwaWNrYXhlcyJ9.Sd49I25qULGXYxobIu636hvsqDZmp5jY7GyLLBdIBt1zi9L0xqjOswsREEwX6QQ2ZADyuT3QJcheRTo9QxiczSP75cqrUq8k_kO-P0UZqUciGRs55aaYw0vEmKVXMcncs-pINtATVut1dSl6GQ_WnOgoy47x6ctjhV_OiuzYXQI",
+                "dances": "https://prod-api.lzt.market/193708241/image/show?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzUxMiJ9.eyJzdWIiOjE5MzcwODI0MSwiaXNzIjoibHp0IiwiZXhwIjoxNzYxMzUwMzk5LCJpYXQiOjE3NjEwOTEyMDAsImp0aSI6IjE5MzcwODI0MTpkYW5jZXMifQ.TQQhlN_9XsP9YbBIjQy-CDZGO_y04gs1tO6gQAx3bHXJzqeMXq_GFAeMIajSBZC4-XpUFxoH_Pg2v0yk4YMDBqrTguFu9TQ4aScUTqXKyYTgp_RzB2_Tkwxn3Fwm3P2MAqkb38m_dZmWtcLu3LZJufy7LKddOpgMQgDus6Dkz9c",
+                "gliders": "https://prod-api.lzt.market/193708241/image/show?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzUxMiJ9.eyJzdWIiOjE5MzcwODI0MSwiaXNzIjoibHp0IiwiZXhwIjoxNzYxMzUwMzk5LCJpYXQiOjE3NjEwOTEyMDAsImp0aSI6IjE5MzcwODI0MTpnbGlkZXJzIn0.hUgE7FCAGIAL0bff_yVQx1TekFiLJ8AV2vtIRrhvAEYVRcgRk0lNaQ-x1StzSPh1OhiJUg75GLXXSPH0xMrbv1VYFF4El-_xaezEpAFhCtlGHoBmpK6Z67w4WYgs5F2opgKYmO19iIB6mPD0WALBxqxX-Q_sUePyViCpz1opN5U"
+            }
+        },
+        "emailLoginUrl": "https://mail.rambler.ru/",
+        "canChangePassword": false,
+        "canChangeEmailPassword": true,
+        "uniqueKeyExists": true,
+        "itemOriginPhrase": "Фишинг",
+        "visitorIsAuthor": false,
+        "canAskDiscount": false,
+        "discount": false,
+        "tags": {
+            "1": {
+                "tag_id": 1,
+                "title": "Валидный",
+                "isDefault": true,
+                "forOwnedAccountsOnly": true,
+                "bc": ""
+            }
+        },
+        "customFields": [],
+        "externalAuth": [],
+        "isTrusted": false,
+        "isBirthdayToday": false,
+        "isIgnored": false,
+        "extraPrices": [
+            {
+                "currency": "usd",
+                "price": "$0.01",
+                "priceValue": 0.01
+            },
+            {
+                "currency": "eur",
+                "price": "0,01 €",
+                "priceValue": 0.01
+            }
+        ],
+        "canViewAccountLoginAndTempEmail": false,
+        "bumpSettings": {
+            "canBumpItem": false,
+            "canBumpItemGlobally": false,
+            "shortErrorPhrase": null,
+            "nextAllowedBumpDate": null,
+            "errorPhrase": null
+        },
+        "canCheckGuarantee": false,
+        "canShareItem": true,
+        "canCheckAiPrice": false,
+        "aiPrice": null,
+        "aiPriceCheckDate": null,
+        "needToRequireVideoToViewLoginData": false,
+        "canCheckAutoBuyPrice": false,
+        "autoBuyPrice": false,
+        "autoBuyPriceCheckDate": null,
+        "descriptionHtml": "",
+        "descriptionEnHtml": "",
+        "descriptionPlain": "",
+        "descriptionEnPlain": "",
+        "seller": {
+            "user_id": 7382058,
+            "username": "X_com",
+            "avatar_date": 1690365410,
+            "is_banned": 0,
+            "display_style_group_id": 265,
+            "joined_date": 1690296466,
+            "sold_items_count": 35456,
+            "active_items_count": 78,
+            "restore_data": "{\"13\":1,\"9\":710}",
+            "restore_percents": 1,
+            "isOnline": false
+        }
+    },
+    "system_info": {
+        "visitor_id": 3908738,
+        "time": 1761161703
+    }
+}
