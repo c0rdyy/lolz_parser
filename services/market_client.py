@@ -1,23 +1,23 @@
-from LOLZTEAM.Client import Market
-from config import LOLZ_API_TOKEN
 import logging
-from services.utils import save_to_json_default
-import asyncio
+
+from LOLZTEAM.Client import Market
+
+from config import LOLZ_API_TOKEN
 
 logger = logging.getLogger(__name__)
-# Отключаем встроенный делей для максимальной скорости
+
 market = Market(LOLZ_API_TOKEN, delay_min=0)
+
 
 async def get_latest_accounts():
     """
     Получить последние аккаунты из всех категорий одним запросом.
-    Вдвое быстрее, чем два отдельных запроса к Fortnite и Epic Games.
     """
     try:
-        logger.debug("Запрос последних аккаунтов (pmin=0, pmax=200)")
-        response = await market.latest.get(
+        logger.debug("Запрос последних аккаунтов (pmin=0, pmax=100)")
+        response = await market.categories.epicgames.get(
             pmin=0,
-            pmax=200,
+            pmax=100,
         )
 
         data = response.json()
