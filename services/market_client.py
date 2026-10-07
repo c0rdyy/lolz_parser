@@ -5,56 +5,27 @@ from services.utils import save_to_json_default
 import asyncio
 
 logger = logging.getLogger(__name__)
-market = Market(LOLZ_API_TOKEN)
+# Отключаем встроенный делей для максимальной скорости
+market = Market(LOLZ_API_TOKEN, delay_min=0)
 
-# async def get_fortnite_accounts():
-#     try:
-#         logger.debug("Запрос Fortnite аккаунтов (pmin=0, pmax=200)")
-#         response = await market.categories.fortnite.get(
-#             pmin=0,
-#             pmax=200,
-#         )
-
-#         data = response.json()
-#         items = data.get("items", [])
-#         # logger.info("Получено Fortnite аккаунтов: %d", len(items))
-#         return items
-#     except Exception as e:
-#         logger.exception("Ошибка при получении Fortnite аккаунтов")
-#         return []
-
-
-async def get_fortnite_accounts():
+async def get_latest_accounts():
+    """
+    Получить последние аккаунты из всех категорий одним запросом.
+    Вдвое быстрее, чем два отдельных запроса к Fortnite и Epic Games.
+    """
     try:
-        logger.debug("Запрос Fortnite аккаунтов (pmin=0, pmax=200)")
-        response = await market.categories.fortnite.get(
+        logger.debug("Запрос последних аккаунтов (pmin=0, pmax=200)")
+        response = await market.latest.get(
             pmin=0,
             pmax=200,
         )
 
         data = response.json()
-        # save_to_json_default(data, "fort.json")
         items = data.get("items", [])
-        logger.info("Получено Fortnite аккаунтов: %d", len(items))
+        logger.info("Получено аккаунтов из latest: %d", len(items))
         return items
     except Exception as e:
-        logger.exception("Ошибка при получении Fortnite аккаунтов")
-        return []
-
-
-async def get_epicgames_accounts():
-    try:
-        logger.debug("Запрос EpicGames аккаунтов (pmin=0, pmax=200)")
-        response = await market.categories.epicgames.get(
-            pmin=0,
-            pmax=200,
-        )
-        data = response.json()
-        items = data.get("items", [])
-        logger.info("Получено EpicGames аккаунтов: %d", len(items))
-        return items
-    except Exception as e:
-        logger.exception("Ошибка при получении EpicGames аккаунтов")
+        logger.exception("Ошибка при получении latest аккаунтов")
         return []
 
 
