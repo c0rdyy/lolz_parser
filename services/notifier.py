@@ -29,19 +29,28 @@ async def notify_new_accounts(bot, chat_id: int, interval: int):
 
                 has_dbd = False
 
-                transactions = acc.get("fortniteTransactions", [])
-                if transactions:
-                    has_dbd = has_dbd or any(
-                        "dead by daylight" in tx.get("title", "").strip().lower()
-                        for tx in transactions
-                    )
+                transactions = acc.get("fortniteTransactions") or []
 
-                epicgames_games = acc.get("epicgames_games", {})
-                if epicgames_games:
-                    has_dbd = has_dbd or any(
-                        "dead by daylight" in game["title"].strip().lower()
-                        for game in epicgames_games.values()
-                    )
+                has_dbd = any(
+                    "dead by daylight" in tx.get("title", "").strip().lower()
+                    for tx in transactions
+                    if isinstance(tx, dict)
+                )
+
+                epicgames_games = acc.get("epicgames_games") or []
+
+                if isinstance(epicgames_games, dict):
+                    games = epicgames_games.values()
+                elif isinstance(epicgames_games, list):
+                    games = epicgames_games
+                else:
+                    games = []
+
+                has_dbd = has_dbd or any(
+                    "dead by daylight" in game.get("title", "").strip().lower()
+                    for game in games
+                    if isinstance(game, dict)
+                )
 
                 if has_dbd:
                     logger.info(
